@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AcubeIO' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AcubeIO
+
+  target 'AcubeIO' do
+    pod 'p2.OAuth2', '~> 3.0'
+  end
+
+  target 'AcubeIOTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AcubeIOUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

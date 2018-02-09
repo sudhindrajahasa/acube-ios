@@ -1,0 +1,1177 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07258A41202B3E89001DC8B3 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07258A40202B3E89001DC8B3 /* LoginTest.swift */; };
+		072947F020283B3400D455C8 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072947EF20283B3400D455C8 /* HeaderViewController.swift */; };
+		0729482620287A7300D455C8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729482520287A7300D455C8 /* Config.swift */; };
+		074531E52028987E00F79A19 /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074531E42028987E00F79A19 /* Semaphore.swift */; };
+		07863C8A202B8914007ECC10 /* LoginUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863C89202B8914007ECC10 /* LoginUITest.swift */; };
+		078BF0F7202C7484008EB19E /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 078BF0F3202C7484008EB19E /* password.png */; };
+		078BF0F8202C7484008EB19E /* loginBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 078BF0F4202C7484008EB19E /* loginBackground.jpg */; };
+		078BF0F9202C7484008EB19E /* userNameIcons.png in Resources */ = {isa = PBXBuildFile; fileRef = 078BF0F5202C7484008EB19E /* userNameIcons.png */; };
+		078BF0FA202C7484008EB19E /* acube_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 078BF0F6202C7484008EB19E /* acube_logo.png */; };
+		07CD0D22202B6531009CBCCE /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD0D21202B6531009CBCCE /* LoginService.swift */; };
+		07CD0D24202B65DC009CBCCE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD0D23202B65DC009CBCCE /* Utilities.swift */; };
+		07CD0D26202B712C009CBCCE /* UserProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD0D25202B712C009CBCCE /* UserProfileService.swift */; };
+		07D1220C202ABB5F0093F8CD /* BluetoothDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D1220B202ABB5F0093F8CD /* BluetoothDeviceTableViewCell.swift */; };
+		07D1221E202AFFD20093F8CD /* AcubeBLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D1221D202AFFD20093F8CD /* AcubeBLE.swift */; };
+		07D12220202B1A480093F8CD /* PoupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D1221F202B1A480093F8CD /* PoupViewController.swift */; };
+		07D12222202B23110093F8CD /* ProgressViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D12221202B23110093F8CD /* ProgressViewUtils.swift */; };
+		07D12224202B2BED0093F8CD /* AcubeStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D12223202B2BED0093F8CD /* AcubeStructures.swift */; };
+		07D574CC202DB8DA0006247D /* BluetoothCommunicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D574CB202DB8DA0006247D /* BluetoothCommunicationViewController.swift */; };
+		07D64B8720296B680076F81B /* AcubeIO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07D64B8520296B680076F81B /* AcubeIO.xcdatamodeld */; };
+		07D64C4D2029CE8C0076F81B /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D64C4C2029CE8C0076F81B /* UserProfileModel.swift */; };
+		07D64C632029E57E0076F81B /* private.pem in Resources */ = {isa = PBXBuildFile; fileRef = 07D64C612029E57E0076F81B /* private.pem */; };
+		07D64C642029E57E0076F81B /* public.pem in Resources */ = {isa = PBXBuildFile; fileRef = 07D64C622029E57E0076F81B /* public.pem */; };
+		07D64C662029E5DD0076F81B /* AcubeRSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D64C652029E5DD0076F81B /* AcubeRSA.swift */; };
+		07D64C682029EDF20076F81B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D64C672029EDF20076F81B /* UserModel.swift */; };
+		07D64C69202A04D20076F81B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D64C042029A6780076F81B /* Alamofire.framework */; };
+		07D64C6A202A04D20076F81B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07D64C042029A6780076F81B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07D64C6E202A050A0076F81B /* SwiftyRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D64C572029E4FC0076F81B /* SwiftyRSA.framework */; };
+		07D64C6F202A050A0076F81B /* SwiftyRSA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07D64C572029E4FC0076F81B /* SwiftyRSA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07D64C76202A058A0076F81B /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D64C3D2029B8D80076F81B /* SwiftyJSON.framework */; };
+		07D64C77202A058A0076F81B /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07D64C3D2029B8D80076F81B /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07E4E30B2022E23200FD6010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4E30A2022E23200FD6010 /* AppDelegate.swift */; };
+		07E4E30D2022E23200FD6010 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4E30C2022E23200FD6010 /* LoginViewController.swift */; };
+		07E4E3102022E23200FD6010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E4E30E2022E23200FD6010 /* Main.storyboard */; };
+		07E4E3122022E23200FD6010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E4E3112022E23200FD6010 /* Assets.xcassets */; };
+		07E4E3152022E23200FD6010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E4E3132022E23200FD6010 /* LaunchScreen.storyboard */; };
+		07E4E3202022E23200FD6010 /* AcubeIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4E31F2022E23200FD6010 /* AcubeIOTests.swift */; };
+		07E4E32B2022E23200FD6010 /* AcubeIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4E32A2022E23200FD6010 /* AcubeIOUITests.swift */; };
+		07E4E3402023164200FD6010 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4E33F2023164200FD6010 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D64C032029A6780076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		07D64C052029A6780076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		07D64C072029A6780076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		07D64C092029A6780076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		07D64C0B2029A6780076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		07D64C0D2029A6780076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		07D64C0F2029A6780076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		07D64C112029A6800076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		07D64C3C2029B8D80076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		07D64C3E2029B8D80076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		07D64C402029B8D80076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON macOS";
+		};
+		07D64C422029B8D80076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON macOS Tests";
+		};
+		07D64C442029B8D80076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
+		};
+		07D64C462029B8D80076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7236B4F61BAC14150020529B;
+			remoteInfo = "SwiftyJSON tvOS";
+		};
+		07D64C482029B8D80076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
+			remoteInfo = "SwiftyJSON tvOS Tests";
+		};
+		07D64C562029E4FC0076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C4F2029E4FC0076F81B /* SwiftyRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 158823A80092238A00F1212F366091C9;
+			remoteInfo = "SwiftyRSA iOS";
+		};
+		07D64C582029E4FC0076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C4F2029E4FC0076F81B /* SwiftyRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 158823A80092238A00F1212F366091C9;
+			remoteInfo = "SwiftyRSA watchOS";
+		};
+		07D64C5A2029E4FC0076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C4F2029E4FC0076F81B /* SwiftyRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 158823A80092238A00F1212F366091C9;
+			remoteInfo = "SwiftyRSA tvOS";
+		};
+		07D64C5C2029E4FC0076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C4F2029E4FC0076F81B /* SwiftyRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C076F53D1DADEB90006AF5DB;
+			remoteInfo = SwiftyRSATests;
+		};
+		07D64C5E2029E5080076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C4F2029E4FC0076F81B /* SwiftyRSA.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D4C96F0225BD9340375C73B5AFD981;
+			remoteInfo = "SwiftyRSA iOS";
+		};
+		07D64C6B202A04D20076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		07D64C70202A050A0076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C4F2029E4FC0076F81B /* SwiftyRSA.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C30B6AA1CC916F3D0BF39F8143CC530;
+			remoteInfo = "SwiftyRSA tvOS";
+		};
+		07D64C74202A05110076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		07D64C78202A058A0076F81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		07E4E31C2022E23200FD6010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E4E2FF2022E23200FD6010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E4E3062022E23200FD6010;
+			remoteInfo = AcubeIO;
+		};
+		07E4E3272022E23200FD6010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E4E2FF2022E23200FD6010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E4E3062022E23200FD6010;
+			remoteInfo = AcubeIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07D64C6D202A04D30076F81B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				07D64C6A202A04D20076F81B /* Alamofire.framework in Embed Frameworks */,
+				07D64C6F202A050A0076F81B /* SwiftyRSA.framework in Embed Frameworks */,
+				07D64C77202A058A0076F81B /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07258A40202B3E89001DC8B3 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		072947EF20283B3400D455C8 /* HeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
+		0729482520287A7300D455C8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		074531E42028987E00F79A19 /* Semaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
+		07863C89202B8914007ECC10 /* LoginUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITest.swift; sourceTree = "<group>"; };
+		078BF0F3202C7484008EB19E /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		078BF0F4202C7484008EB19E /* loginBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBackground.jpg; sourceTree = "<group>"; };
+		078BF0F5202C7484008EB19E /* userNameIcons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userNameIcons.png; sourceTree = "<group>"; };
+		078BF0F6202C7484008EB19E /* acube_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acube_logo.png; sourceTree = "<group>"; };
+		07CD0D21202B6531009CBCCE /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		07CD0D23202B65DC009CBCCE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		07CD0D25202B712C009CBCCE /* UserProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileService.swift; sourceTree = "<group>"; };
+		07D1220B202ABB5F0093F8CD /* BluetoothDeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceTableViewCell.swift; sourceTree = "<group>"; };
+		07D1221D202AFFD20093F8CD /* AcubeBLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcubeBLE.swift; sourceTree = "<group>"; };
+		07D1221F202B1A480093F8CD /* PoupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoupViewController.swift; sourceTree = "<group>"; };
+		07D12221202B23110093F8CD /* ProgressViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewUtils.swift; sourceTree = "<group>"; };
+		07D12223202B2BED0093F8CD /* AcubeStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcubeStructures.swift; sourceTree = "<group>"; };
+		07D574CB202DB8DA0006247D /* BluetoothCommunicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCommunicationViewController.swift; sourceTree = "<group>"; };
+		07D64B8620296B680076F81B /* AcubeIOData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AcubeIOData.xcdatamodel; sourceTree = "<group>"; };
+		07D64BF82029A6770076F81B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
+		07D64C4C2029CE8C0076F81B /* UserProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModel.swift; sourceTree = "<group>"; };
+		07D64C4F2029E4FC0076F81B /* SwiftyRSA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyRSA.xcodeproj; path = SwiftyRSA/SwiftyRSA.xcodeproj; sourceTree = "<group>"; };
+		07D64C612029E57E0076F81B /* private.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private.pem; sourceTree = "<group>"; };
+		07D64C622029E57E0076F81B /* public.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public.pem; sourceTree = "<group>"; };
+		07D64C652029E5DD0076F81B /* AcubeRSA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcubeRSA.swift; sourceTree = "<group>"; };
+		07D64C672029EDF20076F81B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		07E4E3072022E23200FD6010 /* AcubeIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcubeIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E4E30A2022E23200FD6010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07E4E30C2022E23200FD6010 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		07E4E30F2022E23200FD6010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07E4E3112022E23200FD6010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07E4E3142022E23200FD6010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07E4E3162022E23200FD6010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E4E31B2022E23200FD6010 /* AcubeIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcubeIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E4E31F2022E23200FD6010 /* AcubeIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcubeIOTests.swift; sourceTree = "<group>"; };
+		07E4E3212022E23200FD6010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E4E3262022E23200FD6010 /* AcubeIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcubeIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E4E32A2022E23200FD6010 /* AcubeIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcubeIOUITests.swift; sourceTree = "<group>"; };
+		07E4E32C2022E23200FD6010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E4E33F2023164200FD6010 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E4E3042022E23200FD6010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D64C69202A04D20076F81B /* Alamofire.framework in Frameworks */,
+				07D64C6E202A050A0076F81B /* SwiftyRSA.framework in Frameworks */,
+				07D64C76202A058A0076F81B /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4E3182022E23200FD6010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4E3232022E23200FD6010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072948022028651600D455C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		072948232028790200D455C8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07E4E33F2023164200FD6010 /* HomeViewController.swift */,
+				07E4E30C2022E23200FD6010 /* LoginViewController.swift */,
+				07D574CB202DB8DA0006247D /* BluetoothCommunicationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		072948242028792F00D455C8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0729482520287A7300D455C8 /* Config.swift */,
+				074531E42028987E00F79A19 /* Semaphore.swift */,
+				07D1220B202ABB5F0093F8CD /* BluetoothDeviceTableViewCell.swift */,
+				07D1221D202AFFD20093F8CD /* AcubeBLE.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0729482720287B1C00D455C8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				07D1221F202B1A480093F8CD /* PoupViewController.swift */,
+				07D12221202B23110093F8CD /* ProgressViewUtils.swift */,
+				07D12223202B2BED0093F8CD /* AcubeStructures.swift */,
+				07CD0D23202B65DC009CBCCE /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		07CD0D20202B64F4009CBCCE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				07CD0D21202B6531009CBCCE /* LoginService.swift */,
+				07CD0D25202B712C009CBCCE /* UserProfileService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		07D64B7D20296B480076F81B /* DataModule */ = {
+			isa = PBXGroup;
+			children = (
+				07D64B8520296B680076F81B /* AcubeIO.xcdatamodeld */,
+				07D64C4C2029CE8C0076F81B /* UserProfileModel.swift */,
+				07D64C672029EDF20076F81B /* UserModel.swift */,
+			);
+			path = DataModule;
+			sourceTree = "<group>";
+		};
+		07D64BF92029A6770076F81B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D64C042029A6780076F81B /* Alamofire.framework */,
+				07D64C062029A6780076F81B /* Alamofire iOS Tests.xctest */,
+				07D64C082029A6780076F81B /* Alamofire.framework */,
+				07D64C0A2029A6780076F81B /* Alamofire macOS Tests.xctest */,
+				07D64C0C2029A6780076F81B /* Alamofire.framework */,
+				07D64C0E2029A6780076F81B /* Alamofire tvOS Tests.xctest */,
+				07D64C102029A6780076F81B /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D64C322029B8D70076F81B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D64C3D2029B8D80076F81B /* SwiftyJSON.framework */,
+				07D64C3F2029B8D80076F81B /* SwiftyJSON iOS Tests.xctest */,
+				07D64C412029B8D80076F81B /* SwiftyJSON.framework */,
+				07D64C432029B8D80076F81B /* SwiftyJSON macOS Tests.xctest */,
+				07D64C452029B8D80076F81B /* SwiftyJSON.framework */,
+				07D64C472029B8D80076F81B /* SwiftyJSON.framework */,
+				07D64C492029B8D80076F81B /* SwiftyJSON tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D64C502029E4FC0076F81B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D64C572029E4FC0076F81B /* SwiftyRSA.framework */,
+				07D64C592029E4FC0076F81B /* SwiftyRSA.framework */,
+				07D64C5B2029E4FC0076F81B /* SwiftyRSA.framework */,
+				07D64C5D2029E4FC0076F81B /* SwiftyRSATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D64C602029E5430076F81B /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				07D64C612029E57E0076F81B /* private.pem */,
+				07D64C622029E57E0076F81B /* public.pem */,
+				07D64C652029E5DD0076F81B /* AcubeRSA.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		07E4E2FE2022E23200FD6010 = {
+			isa = PBXGroup;
+			children = (
+				07D64C4F2029E4FC0076F81B /* SwiftyRSA.xcodeproj */,
+				07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */,
+				07D64BF82029A6770076F81B /* Alamofire.xcodeproj */,
+				07E4E3092022E23200FD6010 /* AcubeIO */,
+				07E4E31E2022E23200FD6010 /* AcubeIOTests */,
+				07E4E3292022E23200FD6010 /* AcubeIOUITests */,
+				07E4E3082022E23200FD6010 /* Products */,
+				072948022028651600D455C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07E4E3082022E23200FD6010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E4E3072022E23200FD6010 /* AcubeIO.app */,
+				07E4E31B2022E23200FD6010 /* AcubeIOTests.xctest */,
+				07E4E3262022E23200FD6010 /* AcubeIOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07E4E3092022E23200FD6010 /* AcubeIO */ = {
+			isa = PBXGroup;
+			children = (
+				07E4E30A2022E23200FD6010 /* AppDelegate.swift */,
+				07E4E3112022E23200FD6010 /* Assets.xcassets */,
+				07D64B7D20296B480076F81B /* DataModule */,
+				072947EF20283B3400D455C8 /* HeaderViewController.swift */,
+				072948242028792F00D455C8 /* Helpers */,
+				07E4E3382022EEA300FD6010 /* Images */,
+				07E4E3162022E23200FD6010 /* Info.plist */,
+				07D64C602029E5430076F81B /* Keys */,
+				07E4E3132022E23200FD6010 /* LaunchScreen.storyboard */,
+				07E4E30E2022E23200FD6010 /* Main.storyboard */,
+				07CD0D20202B64F4009CBCCE /* Services */,
+				0729482720287B1C00D455C8 /* Utilities */,
+				072948232028790200D455C8 /* ViewController */,
+			);
+			path = AcubeIO;
+			sourceTree = "<group>";
+		};
+		07E4E31E2022E23200FD6010 /* AcubeIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				07E4E31F2022E23200FD6010 /* AcubeIOTests.swift */,
+				07E4E3212022E23200FD6010 /* Info.plist */,
+				07258A40202B3E89001DC8B3 /* LoginTest.swift */,
+				07863C89202B8914007ECC10 /* LoginUITest.swift */,
+			);
+			path = AcubeIOTests;
+			sourceTree = "<group>";
+		};
+		07E4E3292022E23200FD6010 /* AcubeIOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07E4E32A2022E23200FD6010 /* AcubeIOUITests.swift */,
+				07E4E32C2022E23200FD6010 /* Info.plist */,
+			);
+			path = AcubeIOUITests;
+			sourceTree = "<group>";
+		};
+		07E4E3382022EEA300FD6010 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				078BF0F6202C7484008EB19E /* acube_logo.png */,
+				078BF0F4202C7484008EB19E /* loginBackground.jpg */,
+				078BF0F3202C7484008EB19E /* password.png */,
+				078BF0F5202C7484008EB19E /* userNameIcons.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E4E3062022E23200FD6010 /* AcubeIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E4E32F2022E23200FD6010 /* Build configuration list for PBXNativeTarget "AcubeIO" */;
+			buildPhases = (
+				07E4E3032022E23200FD6010 /* Sources */,
+				07E4E3042022E23200FD6010 /* Frameworks */,
+				07E4E3052022E23200FD6010 /* Resources */,
+				07D64C6D202A04D30076F81B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D64C5F2029E5080076F81B /* PBXTargetDependency */,
+				07D64C122029A6800076F81B /* PBXTargetDependency */,
+				07D64C6C202A04D20076F81B /* PBXTargetDependency */,
+				07D64C71202A050A0076F81B /* PBXTargetDependency */,
+				07D64C75202A05110076F81B /* PBXTargetDependency */,
+				07D64C79202A058A0076F81B /* PBXTargetDependency */,
+			);
+			name = AcubeIO;
+			productName = AcubeIO;
+			productReference = 07E4E3072022E23200FD6010 /* AcubeIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07E4E31A2022E23200FD6010 /* AcubeIOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E4E3322022E23200FD6010 /* Build configuration list for PBXNativeTarget "AcubeIOTests" */;
+			buildPhases = (
+				07E4E3172022E23200FD6010 /* Sources */,
+				07E4E3182022E23200FD6010 /* Frameworks */,
+				07E4E3192022E23200FD6010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07E4E31D2022E23200FD6010 /* PBXTargetDependency */,
+			);
+			name = AcubeIOTests;
+			productName = AcubeIOTests;
+			productReference = 07E4E31B2022E23200FD6010 /* AcubeIOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07E4E3252022E23200FD6010 /* AcubeIOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E4E3352022E23200FD6010 /* Build configuration list for PBXNativeTarget "AcubeIOUITests" */;
+			buildPhases = (
+				07E4E3222022E23200FD6010 /* Sources */,
+				07E4E3232022E23200FD6010 /* Frameworks */,
+				07E4E3242022E23200FD6010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07E4E3282022E23200FD6010 /* PBXTargetDependency */,
+			);
+			name = AcubeIOUITests;
+			productName = AcubeIOUITests;
+			productReference = 07E4E3262022E23200FD6010 /* AcubeIOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E4E2FF2022E23200FD6010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jahasa;
+				TargetAttributes = {
+					07E4E3062022E23200FD6010 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					07E4E31A2022E23200FD6010 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07E4E3062022E23200FD6010;
+					};
+					07E4E3252022E23200FD6010 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07E4E3062022E23200FD6010;
+					};
+				};
+			};
+			buildConfigurationList = 07E4E3022022E23200FD6010 /* Build configuration list for PBXProject "AcubeIO" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07E4E2FE2022E23200FD6010;
+			productRefGroup = 07E4E3082022E23200FD6010 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 07D64BF92029A6770076F81B /* Products */;
+					ProjectRef = 07D64BF82029A6770076F81B /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 07D64C322029B8D70076F81B /* Products */;
+					ProjectRef = 07D64C312029B8D70076F81B /* SwiftyJSON.xcodeproj */;
+				},
+				{
+					ProductGroup = 07D64C502029E4FC0076F81B /* Products */;
+					ProjectRef = 07D64C4F2029E4FC0076F81B /* SwiftyRSA.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				07E4E3062022E23200FD6010 /* AcubeIO */,
+				07E4E31A2022E23200FD6010 /* AcubeIOTests */,
+				07E4E3252022E23200FD6010 /* AcubeIOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		07D64C042029A6780076F81B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 07D64C032029A6780076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C062029A6780076F81B /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 07D64C052029A6780076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C082029A6780076F81B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 07D64C072029A6780076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C0A2029A6780076F81B /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 07D64C092029A6780076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C0C2029A6780076F81B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 07D64C0B2029A6780076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C0E2029A6780076F81B /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 07D64C0D2029A6780076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C102029A6780076F81B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 07D64C0F2029A6780076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C3D2029B8D80076F81B /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 07D64C3C2029B8D80076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C3F2029B8D80076F81B /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = 07D64C3E2029B8D80076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C412029B8D80076F81B /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 07D64C402029B8D80076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C432029B8D80076F81B /* SwiftyJSON macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON macOS Tests.xctest";
+			remoteRef = 07D64C422029B8D80076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C452029B8D80076F81B /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 07D64C442029B8D80076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C472029B8D80076F81B /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 07D64C462029B8D80076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C492029B8D80076F81B /* SwiftyJSON tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON tvOS Tests.xctest";
+			remoteRef = 07D64C482029B8D80076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C572029E4FC0076F81B /* SwiftyRSA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyRSA.framework;
+			remoteRef = 07D64C562029E4FC0076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C592029E4FC0076F81B /* SwiftyRSA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyRSA.framework;
+			remoteRef = 07D64C582029E4FC0076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C5B2029E4FC0076F81B /* SwiftyRSA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyRSA.framework;
+			remoteRef = 07D64C5A2029E4FC0076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D64C5D2029E4FC0076F81B /* SwiftyRSATests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftyRSATests.xctest;
+			remoteRef = 07D64C5C2029E4FC0076F81B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E4E3052022E23200FD6010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078BF0F9202C7484008EB19E /* userNameIcons.png in Resources */,
+				078BF0F7202C7484008EB19E /* password.png in Resources */,
+				078BF0F8202C7484008EB19E /* loginBackground.jpg in Resources */,
+				07D64C642029E57E0076F81B /* public.pem in Resources */,
+				07E4E3152022E23200FD6010 /* LaunchScreen.storyboard in Resources */,
+				078BF0FA202C7484008EB19E /* acube_logo.png in Resources */,
+				07E4E3122022E23200FD6010 /* Assets.xcassets in Resources */,
+				07D64C632029E57E0076F81B /* private.pem in Resources */,
+				07E4E3102022E23200FD6010 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4E3192022E23200FD6010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4E3242022E23200FD6010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E4E3032022E23200FD6010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4E30D2022E23200FD6010 /* LoginViewController.swift in Sources */,
+				07D64C662029E5DD0076F81B /* AcubeRSA.swift in Sources */,
+				07CD0D26202B712C009CBCCE /* UserProfileService.swift in Sources */,
+				072947F020283B3400D455C8 /* HeaderViewController.swift in Sources */,
+				07D64C4D2029CE8C0076F81B /* UserProfileModel.swift in Sources */,
+				07D12220202B1A480093F8CD /* PoupViewController.swift in Sources */,
+				07D64B8720296B680076F81B /* AcubeIO.xcdatamodeld in Sources */,
+				0729482620287A7300D455C8 /* Config.swift in Sources */,
+				07CD0D22202B6531009CBCCE /* LoginService.swift in Sources */,
+				07D12222202B23110093F8CD /* ProgressViewUtils.swift in Sources */,
+				07E4E30B2022E23200FD6010 /* AppDelegate.swift in Sources */,
+				07D574CC202DB8DA0006247D /* BluetoothCommunicationViewController.swift in Sources */,
+				07CD0D24202B65DC009CBCCE /* Utilities.swift in Sources */,
+				07D1220C202ABB5F0093F8CD /* BluetoothDeviceTableViewCell.swift in Sources */,
+				07D1221E202AFFD20093F8CD /* AcubeBLE.swift in Sources */,
+				07E4E3402023164200FD6010 /* HomeViewController.swift in Sources */,
+				07D64C682029EDF20076F81B /* UserModel.swift in Sources */,
+				074531E52028987E00F79A19 /* Semaphore.swift in Sources */,
+				07D12224202B2BED0093F8CD /* AcubeStructures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4E3172022E23200FD6010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4E3202022E23200FD6010 /* AcubeIOTests.swift in Sources */,
+				07863C8A202B8914007ECC10 /* LoginUITest.swift in Sources */,
+				07258A41202B3E89001DC8B3 /* LoginTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E4E3222022E23200FD6010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4E32B2022E23200FD6010 /* AcubeIOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D64C122029A6800076F81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 07D64C112029A6800076F81B /* PBXContainerItemProxy */;
+		};
+		07D64C5F2029E5080076F81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyRSA iOS";
+			targetProxy = 07D64C5E2029E5080076F81B /* PBXContainerItemProxy */;
+		};
+		07D64C6C202A04D20076F81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 07D64C6B202A04D20076F81B /* PBXContainerItemProxy */;
+		};
+		07D64C71202A050A0076F81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyRSA tvOS";
+			targetProxy = 07D64C70202A050A0076F81B /* PBXContainerItemProxy */;
+		};
+		07D64C75202A05110076F81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 07D64C74202A05110076F81B /* PBXContainerItemProxy */;
+		};
+		07D64C79202A058A0076F81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 07D64C78202A058A0076F81B /* PBXContainerItemProxy */;
+		};
+		07E4E31D2022E23200FD6010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07E4E3062022E23200FD6010 /* AcubeIO */;
+			targetProxy = 07E4E31C2022E23200FD6010 /* PBXContainerItemProxy */;
+		};
+		07E4E3282022E23200FD6010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07E4E3062022E23200FD6010 /* AcubeIO */;
+			targetProxy = 07E4E3272022E23200FD6010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07E4E30E2022E23200FD6010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E4E30F2022E23200FD6010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07E4E3132022E23200FD6010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E4E3142022E23200FD6010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07E4E32D2022E23200FD6010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 57L9A8L633;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07E4E32E2022E23200FD6010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 57L9A8L633;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07E4E3302022E23200FD6010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9C92424Y3;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = AcubeIO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.acube.ios.AcubeIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07E4E3312022E23200FD6010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9C92424Y3;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = AcubeIO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.acube.ios.AcubeIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07E4E3332022E23200FD6010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9C92424Y3;
+				INFOPLIST_FILE = AcubeIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.acube.test.ios.AcubeIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcubeIO.app/AcubeIO";
+			};
+			name = Debug;
+		};
+		07E4E3342022E23200FD6010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9C92424Y3;
+				INFOPLIST_FILE = AcubeIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.acube.test.ios.AcubeIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcubeIO.app/AcubeIO";
+			};
+			name = Release;
+		};
+		07E4E3362022E23200FD6010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9C92424Y3;
+				INFOPLIST_FILE = AcubeIOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.acube.test.ios.AcubeIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcubeIO;
+			};
+			name = Debug;
+		};
+		07E4E3372022E23200FD6010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9C92424Y3;
+				INFOPLIST_FILE = AcubeIOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.acube.test.ios.AcubeIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcubeIO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E4E3022022E23200FD6010 /* Build configuration list for PBXProject "AcubeIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4E32D2022E23200FD6010 /* Debug */,
+				07E4E32E2022E23200FD6010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E4E32F2022E23200FD6010 /* Build configuration list for PBXNativeTarget "AcubeIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4E3302022E23200FD6010 /* Debug */,
+				07E4E3312022E23200FD6010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E4E3322022E23200FD6010 /* Build configuration list for PBXNativeTarget "AcubeIOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4E3332022E23200FD6010 /* Debug */,
+				07E4E3342022E23200FD6010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E4E3352022E23200FD6010 /* Build configuration list for PBXNativeTarget "AcubeIOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4E3362022E23200FD6010 /* Debug */,
+				07E4E3372022E23200FD6010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07D64B8520296B680076F81B /* AcubeIO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07D64B8620296B680076F81B /* AcubeIOData.xcdatamodel */,
+			);
+			currentVersion = 07D64B8620296B680076F81B /* AcubeIOData.xcdatamodel */;
+			path = AcubeIO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07E4E2FF2022E23200FD6010 /* Project object */;
+}
